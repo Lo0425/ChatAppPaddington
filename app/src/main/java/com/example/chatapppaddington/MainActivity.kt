@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Log.d("debugging", "hello")
         Log.d("debugging","testing")
 
         val database = Firebase.database
@@ -33,5 +34,8 @@ class MainActivity : AppCompatActivity() {
                 Log.w("debugging", "Failed to read value.", error.toException())
             }
         })
+
+        Log.d("ewqewqewq","idk wat this is")
+
     }
 }
