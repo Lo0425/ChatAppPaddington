@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <action
+        android:id="@+id/toLogin"
+        app:popUpTo="@id/home"
+        app:popUpToInclusive="true"
+        app:destination="@id/loginFragment"/>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.chatapppaddington.ui.ContactFragment"
+        android:label="ContactFragment" >
+        <action
+            android:id="@+id/action_contactFragment_to_chatFragment2"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_contactFragment_to_profileFragment2"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.chatapppaddington.ui.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_contactFragment2"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment2"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.chatapppaddington.ui.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.chatapppaddington.ui.RegisterFragment"
+        android:label="RegisterFragment" >
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.chatapppaddington.ui.chatFragment"
+        android:label="chatFragment" />
+</navigation>
