@@ -1,5 +1,6 @@
 package com.example.chatapppaddington
 
+import android.os.Build.VERSION_CODES.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -9,5 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d("debugging", "hello")
+        Log.d("debugging","testing")
     }
 }
