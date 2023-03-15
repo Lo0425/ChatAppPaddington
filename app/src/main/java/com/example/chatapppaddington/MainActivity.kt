@@ -1,6 +1,5 @@
 package com.example.chatapppaddington
 
-import android.os.Build.VERSION_CODES.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
