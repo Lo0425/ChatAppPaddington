@@ -18,7 +18,7 @@ import java.util.*
 @AndroidEntryPoint
 class RegisterFragment :BaseFragment<FragmentRegisterBinding>(){
 
-    override val viewModel: RegisterViewModel.RegisterViewModel by viewModels()
+    override val viewModel: RegisterViewModel by viewModels()
     override fun getLayoutResource() = R.layout.fragment_register
 
     override fun onBindView(view: View, savedInstanceState: Bundle?) {

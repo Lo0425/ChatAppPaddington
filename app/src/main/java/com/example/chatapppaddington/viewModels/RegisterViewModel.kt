@@ -9,9 +9,6 @@ import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-class RegisterViewModel: BaseViewModel() {
-    val finish: MutableSharedFlow<Unit> = MutableSharedFlow()
-
 @HiltViewModel
 class RegisterViewModel @Inject constructor(private val authRepo: AuthService) : BaseViewModel() {
     val finish: MutableSharedFlow<Unit> = MutableSharedFlow()
@@ -22,7 +19,7 @@ class RegisterViewModel @Inject constructor(private val authRepo: AuthService) :
         email: String,
         pass: String,
 
-    ) {
+        ) {
         if (UserDiffUtil.validate(name, email, pass)) {
             viewModelScope.launch {
                 safeApiCall {
@@ -43,5 +40,5 @@ class RegisterViewModel @Inject constructor(private val authRepo: AuthService) :
             }
         }
 
-    }}
+    }
 }
