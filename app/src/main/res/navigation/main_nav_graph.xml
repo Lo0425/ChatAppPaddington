@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/startupFragment">
 
     <action
         android:id="@+id/toLogin"
@@ -44,4 +45,9 @@
         android:id="@+id/chatFragment"
         android:name="com.example.chatapppaddington.ui.chatFragment"
         android:label="chatFragment" />
+    <fragment
+        android:id="@+id/startupFragment"
+        android:name="com.example.chatapppaddington.ui.StartupFragment"
+        android:label="fragment_startup"
+        tools:layout="@layout/fragment_startup" />
 </navigation>
