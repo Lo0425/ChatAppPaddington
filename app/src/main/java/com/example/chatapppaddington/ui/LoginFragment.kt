@@ -12,8 +12,9 @@ import com.example.chatapppaddington.MainActivity
 import com.example.chatapppaddington.R
 import com.example.chatapppaddington.databinding.FragmentLoginBinding
 import com.example.chatapppaddington.viewModels.LoginViewModel
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-
+@AndroidEntryPoint
 class LoginFragment :BaseFragment<FragmentLoginBinding>() {
     override val viewModel: LoginViewModel by viewModels()
     override fun getLayoutResource() = R.layout.fragment_login
@@ -28,7 +29,7 @@ class LoginFragment :BaseFragment<FragmentLoginBinding>() {
             val email =binding?.etEmail?.text.toString()
             val password = binding?.etPassword?.text.toString()
             lifecycleScope.launch {
-//                viewModel.login(email,password)
+                viewModel.login(email,password)
             }
         }
     }

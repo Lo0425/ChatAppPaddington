@@ -9,16 +9,16 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.NavHostFragment
 import com.example.chatapppaddington.R
-import com.example.chatapppaddington.databinding.FragmentLoginBinding
 import com.example.chatapppaddington.databinding.FragmentRegisterBinding
 import com.example.chatapppaddington.viewModels.RegisterViewModel
 import com.google.android.material.snackbar.Snackbar
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import java.util.*
-
+@AndroidEntryPoint
 class RegisterFragment :BaseFragment<FragmentRegisterBinding>(){
 
-    override val viewModel: RegisterViewModel by viewModels()
+    override val viewModel: RegisterViewModel.RegisterViewModel by viewModels()
     override fun getLayoutResource() = R.layout.fragment_register
 
     override fun onBindView(view: View, savedInstanceState: Bundle?) {
@@ -43,7 +43,7 @@ class RegisterFragment :BaseFragment<FragmentRegisterBinding>(){
                     snackBar.show()
                 } else {
                     lifecycleScope.launch {
-//                        viewModel.register(id, username, email, password)
+                        viewModel.register(id, username, email, password)
                     }
                 }
             }

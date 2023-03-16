@@ -11,8 +11,9 @@ import com.example.chatapppaddington.R
 import com.example.chatapppaddington.databinding.FragmentLoginBinding
 import com.example.chatapppaddington.databinding.FragmentStartupBinding
 import com.example.chatapppaddington.viewModels.LoginViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class StartupFragment :BaseFragment<FragmentStartupBinding>() {
     override val viewModel: LoginViewModel by viewModels()
     override fun getLayoutResource() = R.layout.fragment_startup
