@@ -18,9 +18,9 @@ class RegisterViewModel @Inject constructor(private val authRepo: AuthService) :
         name: String,
         email: String,
         pass: String,
-        conPass: String,
-    ) {
-        if (UserDiffUtil.validate(name, email, pass, conPass) && pass == conPass) {
+
+        ) {
+        if (UserDiffUtil.validate(name, email, pass)) {
             viewModelScope.launch {
                 safeApiCall {
                     authRepo.createUser(
