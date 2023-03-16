@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c98cc0f-ac7d-42e2-b6e3-0387b305e9cd" name="Changes" comment="done with navigaiton">
+    <list default="true" id="1c98cc0f-ac7d-42e2-b6e3-0387b305e9cd" name="Changes" comment="connected firebase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+        <option value="release" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -63,6 +72,23 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/SEM 3 Mobile/andriodStudio/MobileSem1FinalProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SEM 3 Mobile\andriodStudio\ChatAppPaddington\app" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="ChatAppPaddington.app.main" />
@@ -147,6 +173,28 @@
       <updated>1678867856252</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00001" summary="connected firebase">
+      <created>1678865953169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678865953169</updated>
+    </task>
+    <task id="LOCAL-00002" summary="connected firebase">
+      <created>1678865981402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678865981402</updated>
+    </task>
+    <task id="LOCAL-00003" summary="connected firebase">
+      <created>1678866383299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678866383299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,5 +212,9 @@
     <MESSAGE value="fixing github" />
     <MESSAGE value="done with navigaiton" />
     <option name="LAST_COMMIT_MESSAGE" value="done with navigaiton" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="connected firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="connected firebase" />
   </component>
 </project>
