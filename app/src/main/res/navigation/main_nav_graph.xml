@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/startupFragment">
+    app:startDestination="@id/loginFragment">
 
     <action
         android:id="@+id/toLogin"
@@ -40,6 +40,9 @@
         android:id="@+id/registerFragment"
         android:name="com.example.chatapppaddington.ui.RegisterFragment"
         android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/chatFragment"
@@ -49,5 +52,9 @@
         android:id="@+id/startupFragment"
         android:name="com.example.chatapppaddington.ui.StartupFragment"
         android:label="fragment_startup"
-        tools:layout="@layout/fragment_startup" />
+        tools:layout="@layout/fragment_startup" >
+        <action
+            android:id="@+id/action_startup_to_register"
+            app:destination="@id/registerFragment" />
+    </fragment>
 </navigation>
