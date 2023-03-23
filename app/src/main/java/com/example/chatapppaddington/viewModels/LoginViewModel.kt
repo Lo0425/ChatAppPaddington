@@ -10,6 +10,7 @@ import javax.inject.Inject
 @HiltViewModel
 class LoginViewModel @Inject constructor(private val auth:AuthService): BaseViewModel() {
     val loginFinish: MutableSharedFlow<Unit> = MutableSharedFlow()
+    val logoutFinish:MutableSharedFlow<Unit> = MutableSharedFlow()
 
     fun login(email: String, pass: String) {
         viewModelScope.launch {
@@ -19,6 +20,12 @@ class LoginViewModel @Inject constructor(private val auth:AuthService): BaseView
             } else {
                 error.emit("Login failed")
             }
+        }
+    }
+    fun logout(){
+        viewModelScope.launch {
+            safeApiCall { auth.deAuthenticate() }
+            logoutFinish.emit(Unit)
         }
     }
 
