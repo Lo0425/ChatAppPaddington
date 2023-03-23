@@ -11,31 +11,16 @@
         app:popUpToInclusive="true"
         app:destination="@id/loginFragment"/>
     <fragment
-        android:id="@+id/contactFragment"
-        android:name="com.example.chatapppaddington.ui.ContactFragment"
-        android:label="ContactFragment" >
-        <action
-            android:id="@+id/action_contactFragment_to_chatFragment2"
-            app:destination="@id/chatFragment" />
-        <action
-            android:id="@+id/action_contactFragment_to_profileFragment2"
-            app:destination="@id/profileFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.chatapppaddington.ui.LoginFragment"
         android:label="LoginFragment" >
         <action
-            android:id="@+id/action_loginFragment_to_contactFragment2"
-            app:destination="@id/contactFragment" />
-        <action
             android:id="@+id/action_loginFragment_to_registerFragment2"
             app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.example.chatapppaddington.ui.ProfileFragment"
-        android:label="ProfileFragment" />
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.example.chatapppaddington.ui.RegisterFragment"
@@ -45,10 +30,6 @@
             app:destination="@id/loginFragment" />
     </fragment>
     <fragment
-        android:id="@+id/chatFragment"
-        android:name="com.example.chatapppaddington.ui.chatFragment"
-        android:label="chatFragment" />
-    <fragment
         android:id="@+id/startupFragment"
         android:name="com.example.chatapppaddington.ui.StartupFragment"
         android:label="fragment_startup"
@@ -57,4 +38,19 @@
             android:id="@+id/action_startup_to_register"
             app:destination="@id/registerFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.chatapppaddington.ui.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_messageFragment"
+            app:destination="@id/messageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.chatapppaddington.ui.MessageFragment"
+        android:label="MessageFragment"
+        tools:layout="@layout/fragment_message"
+        />
 </navigation>
