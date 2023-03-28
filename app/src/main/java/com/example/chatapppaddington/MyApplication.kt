@@ -1,7 +1,7 @@
 package com.example.chatapppaddington
 
 import android.app.Application
-import com.example.chatapppaddington.data.service.AuthService
+import com.example.chatapppaddington.service.AuthService
 import dagger.hilt.android.HiltAndroidApp
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

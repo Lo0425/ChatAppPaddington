@@ -12,7 +12,7 @@
         app:destination="@id/loginFragment"/>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.chatapppaddington.ui.LoginFragment"
+        android:name="com.example.chatapppaddington.view.fragments.auth.LoginFragment"
         android:label="LoginFragment" >
         <action
             android:id="@+id/action_loginFragment_to_registerFragment2"
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.chatapppaddington.ui.RegisterFragment"
+        android:name="com.example.chatapppaddington.view.fragments.auth.RegisterFragment"
         android:label="RegisterFragment" >
         <action
             android:id="@+id/action_register_to_login"
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/startupFragment"
-        android:name="com.example.chatapppaddington.ui.StartupFragment"
+        android:name="com.example.chatapppaddington.view.fragments.StartupFragment"
         android:label="fragment_startup"
         tools:layout="@layout/fragment_startup" >
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.chatapppaddington.ui.HomeFragment"
+        android:name="com.example.chatapppaddington.view.fragments.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
@@ -49,8 +49,12 @@
     </fragment>
     <fragment
         android:id="@+id/messageFragment"
-        android:name="com.example.chatapppaddington.ui.MessageFragment"
+        android:name="com.example.chatapppaddington.view.fragments.MessageFragment"
         android:label="MessageFragment"
-        tools:layout="@layout/fragment_message"
+        tools:layout="@layout/fragment_message">
+        <argument
+            android:name="id"
+            app:argType="string"
         />
+    </fragment>
 </navigation>

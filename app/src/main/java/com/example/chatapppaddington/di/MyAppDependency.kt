@@ -2,9 +2,8 @@ package com.example.chatapppaddington.di
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.example.chatapppaddington.data.service.AuthService
-import com.example.chatapppaddington.repository.FireStoreUserRepository
-import com.example.chatapppaddington.repository.UserRepository
+import com.example.chatapppaddington.service.AuthService
+import com.example.chatapppaddington.model.repository.UserRepository
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.CollectionReference
@@ -53,11 +52,11 @@ object MyAppDependency {
         return Firebase.auth
     }
 
-    @Provides
-    @Singleton
-    fun getFireStoreUserRepository(db: FirebaseFirestore): UserRepository {
-        return FireStoreUserRepository(db.collection("users"))
-    }
+//    @Provides
+//    @Singleton
+//    fun getFireStoreUserRepository(db: FirebaseFirestore): UserRepository {
+//        return FireStoreUserRepository(db.collection("users"))
+//    }
 
     @Provides
     @Singleton
@@ -69,6 +68,13 @@ object MyAppDependency {
     @Singleton
     fun provideCollectionReference(db: FirebaseFirestore): CollectionReference {
         return db.collection("messages")
+    }
+
+
+    @Provides
+    @Singleton
+    fun provideUserRepository(db: FirebaseFirestore): UserRepository {
+        return UserRepository(db.collection("users"))
     }
 
 //    @Provides
