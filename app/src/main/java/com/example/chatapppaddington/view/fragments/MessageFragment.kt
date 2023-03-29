@@ -26,21 +26,13 @@ class MessageFragment : BaseFragment<FragmentMessageBinding>() {
     override fun onBindView(view: View, savedInstanceState: Bundle?) {
         super.onBindView(view, savedInstanceState)
         setupAdapter()
-
-        binding?.run {
-            btnSend.setOnClickListener {
-                val msg = etMessage.text.toString()
-                etMessage.setText("")
-                viewModel.sendMessage(args.id,msg)
-            }
-        }
+        binding?.viewModel = viewModel
     }
 
     override fun onBindData(view: View) {
         super.onBindData(view)
 
 
-        binding?.tvUsername?.text = "Holly"
         lifecycleScope.launch {
             viewModel.getAllMessages(args.id).collect {
                 adapter.setMessages(it.toMutableList())

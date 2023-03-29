@@ -19,13 +19,12 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
     override fun onBindView(view: View, savedInstanceState: Bundle?) {
         super.onBindView(view, savedInstanceState)
 
+        binding?.viewModel = viewModel
+        binding?.lifecycleOwner = viewLifecycleOwner
         binding?.btnLogin?.setOnClickListener {
-            val email =binding?.etEmail?.text.toString()
-            val password = binding?.etPassword?.text.toString()
-            lifecycleScope.launch {
-                viewModel.login()
-            }
+            viewModel.login()
         }
+
         binding?.toRegister?.setOnClickListener {
             val action = LoginFragmentDirections.actionLoginFragmentToRegisterFragment2()
             NavHostFragment.findNavController(this).navigate(action)

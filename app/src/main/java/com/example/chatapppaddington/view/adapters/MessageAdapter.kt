@@ -69,6 +69,7 @@ class MessageAdapter(
                 tvMessage.setBackgroundResource(R.drawable.msgincoming)
                 username.text = message.name
                 tvMessage.text = message.message
+                tvTime.text = message.dateTime
             }
         }
     }
@@ -81,6 +82,7 @@ class MessageAdapter(
                         tvMessage.setBackgroundResource(R.drawable.msgoutgoing)
                         username.text = message.name
                         tvMessage.text = message.message
+                        tvTime.text = message.dateTime
                     }
                 }
             }

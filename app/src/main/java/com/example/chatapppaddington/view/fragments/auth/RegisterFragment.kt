@@ -41,7 +41,7 @@ class RegisterFragment : BaseFragment<FragmentRegisterBinding>(){
                     snackBar.show()
                 } else {
                     lifecycleScope.launch {
-                        viewModel.register(id, username, email, password)
+                        viewModel.register()
                     }
                 }
             }
