@@ -38,8 +38,10 @@ class LoginFragment :BaseFragment<FragmentLoginBinding>() {
         super.onBindData(view)
         lifecycleScope.launch {
             viewModel.loginFinish.collect{
-                val action = LoginFragmentDirections.actionLoginFragmentToContactFragment2()
+//                val action = LoginFragmentDirections.actionLoginFragmentToContactFragment2()
+                val action = LoginFragmentDirections.actionLoginFragmentToHomeFragment()
                 navController.navigate(action)
+
             }
         }
     }

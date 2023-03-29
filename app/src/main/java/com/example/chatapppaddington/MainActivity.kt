@@ -27,21 +27,6 @@ class MainActivity : AppCompatActivity() {
         Log.d("debugging","testing")
 
         val database = Firebase.database
-        val myRef = database.getReference("message")
-
-        myRef.setValue("Hello, World!")
-
-        myRef.addValueEventListener(object: ValueEventListener {
-
-            override fun onDataChange(snapshot: DataSnapshot) {
-                val value = snapshot.getValue<String>()
-                Log.d("debugging", "Value is: " + value)
-            }
-
-            override fun onCancelled(error: DatabaseError) {
-                Log.w("debugging", "Failed to read value.", error.toException())
-            }
-        })
 
         Log.d("ewqewqewq","idk wat this is")
 
