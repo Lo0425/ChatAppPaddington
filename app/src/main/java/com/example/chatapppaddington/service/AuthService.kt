@@ -1,6 +1,6 @@
 package com.example.chatapppaddington.service
 
-import com.example.chatapppaddington.model.model.User
+import com.example.chatapppaddington.data.model.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.CollectionReference
 import com.google.firebase.firestore.Query

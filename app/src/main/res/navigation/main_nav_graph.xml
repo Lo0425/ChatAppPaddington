@@ -12,7 +12,7 @@
         app:destination="@id/loginFragment"/>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.chatapppaddington.view.fragments.auth.LoginFragment"
+        android:name="com.example.chatapppaddington.ui.presentation.login.LoginFragment"
         android:label="LoginFragment" >
         <action
             android:id="@+id/action_loginFragment_to_registerFragment2"
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.chatapppaddington.view.fragments.auth.RegisterFragment"
+        android:name="com.example.chatapppaddington.ui.presentation.register.RegisterFragment"
         android:label="RegisterFragment" >
         <action
             android:id="@+id/action_register_to_login"
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/startupFragment"
-        android:name="com.example.chatapppaddington.view.fragments.StartupFragment"
+        android:name="com.example.chatapppaddington.ui.presentation.StartupFragment"
         android:label="fragment_startup"
         tools:layout="@layout/fragment_startup" >
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.chatapppaddington.view.fragments.HomeFragment"
+        android:name="com.example.chatapppaddington.ui.presentation.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
@@ -49,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/messageFragment"
-        android:name="com.example.chatapppaddington.view.fragments.MessageFragment"
+        android:name="com.example.chatapppaddington.ui.presentation.message.MessageFragment"
         android:label="MessageFragment"
         tools:layout="@layout/fragment_message">
         <argument

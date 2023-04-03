@@ -1,0 +1,22 @@
+package com.example.chatapppaddington.data.repositories
+
+import com.google.firebase.firestore.CollectionReference
+
+
+class FireStoreUserRepository(private val ref: CollectionReference) {
+
+//    override suspend fun getUsers(): List<User> {
+//        val users = mutableListOf<User>()
+//        val res = ref.get().await()
+//        for (document in res) {
+//            users.add(document.toObject(User::class.java).copy(id = document.id))
+//        }
+//        return users
+//    }
+//
+//    override suspend fun editProfile(id: String, user: User) {
+//        ref.document(id).set(user).await()
+//    }
+
+
+}

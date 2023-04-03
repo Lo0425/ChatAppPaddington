@@ -3,7 +3,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.chatapppaddington.viewModels.MessageViewModel" />
+            type="com.example.chatapppaddington.ui.presentation.message.viewModel.MessageViewModel" />
     </data>
     <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"

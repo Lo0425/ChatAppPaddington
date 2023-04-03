@@ -2,8 +2,12 @@ package com.example.chatapppaddington.di
 
 import android.content.Context
 import android.content.SharedPreferences
+import com.example.chatapppaddington.data.repositories.RealTimeRepositoryImp
 import com.example.chatapppaddington.service.AuthService
-import com.example.chatapppaddington.model.repository.UserRepository
+import com.example.chatapppaddington.data.repositories.UserRepositoryImp
+import com.example.chatapppaddington.domain.repository.RealTimeRepository
+import com.example.chatapppaddington.domain.repository.UserRepository
+import com.example.chatapppaddington.domain.usecase.GetUsersUseCase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.CollectionReference
@@ -74,8 +78,19 @@ object MyAppDependency {
     @Provides
     @Singleton
     fun provideUserRepository(db: FirebaseFirestore): UserRepository {
-        return UserRepository(db.collection("users"))
+        return UserRepositoryImp(db.collection("users"))
     }
+
+    @Provides
+    @Singleton
+    fun getRealtimeRepository(): RealTimeRepository{
+        return RealTimeRepositoryImp()
+    }
+
+//    @Provides
+//    @Singleton
+//    fun provideGetUserUserCase(userRepository: UserRepository): GetUsersUseCase{
+//        return GetUsersUseCase(userRepository)    }
 
 //    @Provides
 //    @Singleton
