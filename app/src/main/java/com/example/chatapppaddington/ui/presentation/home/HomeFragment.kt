@@ -9,8 +9,10 @@ import com.example.chatapppaddington.R
 import com.example.chatapppaddington.databinding.FragmentHomeBinding
 import com.example.chatapppaddington.ui.presentation.adapters.ChatAdapter
 import com.example.chatapppaddington.data.model.User
+import com.example.chatapppaddington.ui.presentation.MainActivity
 import com.example.chatapppaddington.ui.presentation.base.BaseFragment
 import com.example.chatapppaddington.ui.presentation.home.viewModel.HomeViewModelImp
+import com.example.chatapppaddington.utils.NotificationUtils
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -26,12 +28,37 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
         binding?.run {
             btnAdd.setOnClickListener {
+                (requireActivity() as MainActivity).startService()
 
 //                val action = HomeFragmentDirections.actionHomeFragmentToMessageFragment()
 ////                val action= HomeFragmentDirections.
 //                NavHostFragment.findNavController(this@HomeFragment).navigate(action)
             }
+
+            btnNotification.setOnClickListener {
+                NotificationUtils.createNotification(
+                    requireContext(),
+                    "First Notification",
+                    "We are learning notification"
+                )
+            }
+
+            btnNotificationRemoteInput.setOnClickListener {
+                NotificationUtils.createNotificationWithPendingIntent(
+                    requireContext(),
+                    "Notification with pending intent",
+                    "we are learning notification with pending intent"
+                )
+            }
+
+            btnAdd2.setOnClickListener{
+                (requireActivity() as MainActivity).stopService()
+            }
+
+
         }
+
+
     }
 
     override fun onBindData(view: View) {
@@ -52,7 +79,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
                     )
                 }
                 NavHostFragment.findNavController(this@HomeFragment).navigate(action)
-
             }
         }
 

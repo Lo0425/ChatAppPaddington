@@ -52,7 +52,7 @@ class RegisterFragment : BaseFragment<FragmentRegisterBinding>(){
         super.onBindData(view)
         lifecycleScope.launch {
             viewModel.finish.collect {
-                val action = RegisterFragmentDirections.toLogin()
+                val action = RegisterFragmentDirections.actionRegisterToLogin()
                 navController.navigate(action)
             }
         }

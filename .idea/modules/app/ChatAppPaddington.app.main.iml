@@ -40,40 +40,48 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/72636b1fa1c2bf179a9522406ae10f8e/transformed/hilt-android-2.45-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/419ac7e2570078121dddefabeab984d0/transformed/appcompat-1.6.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6495a09ecb186bbfd5e468d8d88f0fdf/transformed/glide-4.14.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/e4f3e4157a26065c81549fa5c8902a88/transformed/play-services-auth-20.5.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6189a0e96fc003f47a90bff969343f97/transformed/viewpager2-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/fc31907c601b8f4cd1390765797447c0/transformed/firebase-auth-ktx-21.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/738fd1c0aaedd9f42f54536d6a5a952d/transformed/firebase-auth-21.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/8c8d1e8e3da7a827753ef637583f2289/transformed/firebase-firestore-ktx-24.4.5-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/4a0e30b6ceaa70b7155da1072d7eccb2/transformed/firebase-messaging-ktx-23.1.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/e3207658002b35beab6dba95b29e08fd/transformed/firebase-firestore-ktx-24.4.4-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/8b7ac5729da81376c2b9c2d4c89fd574/transformed/play-services-auth-api-phone-18.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2ea0732fd3721f515f4d356dcd937377/transformed/firebase-database-ktx-20.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e91698368f5d12f7667e6047ccbdf45e/transformed/firebase-analytics-ktx-21.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/27cc7116e1a80501ee4eefa1ef4e6bef/transformed/firebase-crashlytics-ktx-18.3.5-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/daeba1cc2210762ba46189d0221e7bc5/transformed/firebase-common-ktx-20.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b081f7d7ca506d8c5d3e4ed9ff607f0b/transformed/firebase-database-20.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/29ffca9e8d96bf210ded8e0238449437/transformed/firebase-firestore-24.4.5-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/134a0d87b558affe7331b334ac6d34c6/transformed/firebase-messaging-23.1.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/c667a9ba3c0f2bc94856101c2017d4ba/transformed/firebase-firestore-24.4.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/70b97062727dfcdb2700424a059183ef/transformed/firebase-crashlytics-18.3.5-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/db3bb9acacd36de92ef8eb6ab4e730dd/transformed/firebase-auth-interop-20.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/29697e2ba360f4fa07cfa49b4993c6de/transformed/firebase-appcheck-interop-16.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dff8055584fbd4d94e1e9a0dd41f8d7c/transformed/firebase-analytics-21.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/458c2298d6d992d9d746469f732a2eb5/transformed/play-services-measurement-api-21.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a5279fb7e8f01a092812900e4584ece3/transformed/firebase-installations-17.1.3-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/e38aec52e095d8ecb4bf78a415c64aaf/transformed/firebase-datatransport-18.1.7-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0aef97acea40164457a7053aab6abdd0/transformed/firebase-common-20.3.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/c9882cc5eff361350863d8cb0cdd4827/transformed/play-services-auth-api-phone-17.4.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/76699b7254531624542d7832330e9e51/transformed/play-services-auth-base-18.0.4-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/7e57d5e51e8f2c09333b00233fd2bae2/transformed/play-services-fido-20.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/742bd692ebd047de4d1422f2926d9ab5/transformed/play-services-safetynet-17.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/2c997cd1c0ef33f3e751d3831929aeff1390cb30/kotlinx-coroutines-core-jvm-1.6.4.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-play-services/1.6.4/e8e5e0dbe20eadc35a0eb112bcc1b2089768c906/kotlinx-coroutines-play-services-1.6.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2643fb648bae73ea79e52af54691e78a/transformed/firebase-database-collection-18.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/81be30a2aa33762cb6315659dfc472a7/transformed/play-services-base-18.0.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/2c997cd1c0ef33f3e751d3831929aeff1390cb30/kotlinx-coroutines-core-jvm-1.6.4.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-play-services/1.6.4/e8e5e0dbe20eadc35a0eb112bcc1b2089768c906/kotlinx-coroutines-play-services-1.6.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/84b26b9699e0bcff4f6cbadfbf0513e1/transformed/firebase-installations-interop-17.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/f90b7ba70b1b1cfc15dcac5a1eb8914a/transformed/firebase-iid-interop-17.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/86955c4674a644883bcf4cfed136e0e6/transformed/play-services-cloud-messaging-17.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3483a7be94ac67267d807f2344c49b5c/transformed/play-services-tasks-18.0.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7fb371f9251cfc9d8b2eb8b8c2558971/transformed/play-services-measurement-21.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9cf16d812efc9d779ef405468970c393/transformed/play-services-measurement-sdk-21.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/4d55ee88fa77388bd9302c6d7ca963ce/transformed/firebase-measurement-connector-19.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7a7f4f00870119d79fd8b7662211fe79/transformed/play-services-measurement-impl-21.2.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/4277a685e7f43ab87381a52579ed1b01/transformed/play-services-stats-17.0.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/4d55ee88fa77388bd9302c6d7ca963ce/transformed/firebase-measurement-connector-19.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b3f3b221b980d75583663f9064eb3137/transformed/play-services-ads-identifier-18.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/79754d0b9fbf656973d1fc3067be0c59/transformed/play-services-measurement-sdk-api-21.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c00aa96fd293c35f18cb2732a7383aab/transformed/play-services-measurement-base-21.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/4277a685e7f43ab87381a52579ed1b01/transformed/play-services-stats-17.0.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/34da19c0b3a864327f18b92ab214b899/transformed/play-services-basement-18.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/dc91f57aaee2e3a8822de39a3b9f405f/transformed/play-services-basement-18.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a255d52c2cf16661b3cdd2ba0880ff4d/transformed/fragment-1.5.6-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/173e3a5e32d5a0c20a2af088aa2db0d7/transformed/navigation-runtime-ktx-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/fef4952e3530cda2969a983647517c24/transformed/navigation-runtime-2.5.3-api.jar</arg>
@@ -127,13 +135,13 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6f4b430180d46ca9dc219e0be285ba13/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/d1ea0e557ebbcf9ad45f4366ee7d5b23/transformed/interpolator-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/00e80b49b6242ebb4234c529dc37d936/transformed/transport-backend-cct-3.1.8-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/19bb7c6dbd524af240db1b26fccaa674/transformed/firebase-encoders-json-18.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e4fcc56f7c74241e7d521b5ef5916956/transformed/transport-runtime-3.1.8-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/19bb7c6dbd524af240db1b26fccaa674/transformed/firebase-encoders-json-18.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders-proto/16.0.0/a42d5fd83b96ae7b73a8617d29c94703e18c9992/firebase-encoders-proto-16.0.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders/17.0.0/26f52dc549c42575b155f8c720e84059ee600a85/firebase-encoders-17.0.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/39172d3c7381c80be44cc64a36c39d5f/transformed/transport-api-3.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/d1ea0e557ebbcf9ad45f4366ee7d5b23/transformed/interpolator-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6b7f533e7899a99b20366aa3a09a0856/transformed/documentfile-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/03f1745cb28d55d071d6b6a5a53edd3a/transformed/print-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.5.0/857678d6b4ca7b28571ef7935c668bdb57e15027/annotation-1.5.0.jar</arg>
@@ -213,16 +221,17 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/debug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
@@ -249,7 +258,6 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" type="java-resource" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" type="java-resource" />
     </content>
@@ -259,6 +267,9 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" type="java-resource" />
     </content>
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" type="java-resource" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
@@ -268,16 +279,16 @@
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug">
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug">
@@ -285,9 +296,11 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
     </content>
@@ -346,6 +359,8 @@
     <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.15.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.concurrent:concurrent-futures:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-encoders:17.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-encoders-proto:16.0.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.dagger:dagger:2.45" level="project" />
     <orderEntry type="library" name="Gradle: com.google.dagger:hilt-core:2.45" level="project" />
@@ -367,8 +382,6 @@
     <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf-lite:1.52.1" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-okhttp:1.52.1" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-core:1.52.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-encoders:17.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-encoders-proto:16.0.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.databinding:databinding-runtime:7.4.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:7.4.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.6.1@aar" level="project" />
@@ -415,9 +428,9 @@
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-ktx:21.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth:21.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.browser:browser:1.4.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-api-phone:17.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-api-phone:18.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:18.0.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:18.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:18.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:18.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-safetynet:17.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-interop:20.0.0@aar" level="project" />
@@ -428,18 +441,27 @@
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database:20.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-appcheck-interop:16.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database-collection:18.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging-ktx:23.1.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging:23.1.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-installations-interop:17.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-datatransport:18.1.7@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-api:3.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-backend-cct:3.1.8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-runtime:3.1.8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-encoders-json:18.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-installations:17.1.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats:17.0.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector:19.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-interop:17.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-cloud-messaging:17.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-ktx:21.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics:21.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement:21.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:18.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:21.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-impl:21.2.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats:17.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-api:21.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:21.2.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-installations:17.1.3@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-installations-interop:17.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector:19.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk:21.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-fragment-ktx:2.5.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-fragment:2.5.3@aar" level="project" />
@@ -463,15 +485,14 @@
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder:4.14.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.exifinterface:exifinterface:1.3.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-firestore-ktx:24.4.5@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-firestore:24.4.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-firestore-ktx:24.4.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-firestore:24.4.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:protolite-well-known-types:18.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-android:1.52.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-crashlytics-ktx:18.3.5@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-crashlytics:18.3.5@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-encoders-json:18.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-api:3.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-runtime:3.1.8@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.datatransport:transport-backend-cct:3.1.8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth:20.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-base:18.0.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-fido:20.0.1@aar" level="project" />
   </component>
 </module>

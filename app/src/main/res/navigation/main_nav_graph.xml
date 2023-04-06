@@ -30,15 +30,6 @@
             app:destination="@id/loginFragment" />
     </fragment>
     <fragment
-        android:id="@+id/startupFragment"
-        android:name="com.example.chatapppaddington.ui.presentation.StartupFragment"
-        android:label="fragment_startup"
-        tools:layout="@layout/fragment_startup" >
-        <action
-            android:id="@+id/action_startup_to_register"
-            app:destination="@id/registerFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.chatapppaddington.ui.presentation.home.HomeFragment"
         android:label="HomeFragment"
